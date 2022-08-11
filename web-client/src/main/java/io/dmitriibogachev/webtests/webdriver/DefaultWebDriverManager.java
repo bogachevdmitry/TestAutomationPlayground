@@ -1,7 +1,8 @@
 package io.dmitriibogachev.webtests.webdriver;
 
-import io.dmitriibogachev.webtests.webdriver.utils.WebDriverFactory;
 import org.openqa.selenium.WebDriver;
+
+import static io.dmitriibogachev.webtests.webdriver.utils.DriverInitUtils.createDriver;
 
 public class DefaultWebDriverManager implements WebDriverManager {
 
@@ -9,7 +10,7 @@ public class DefaultWebDriverManager implements WebDriverManager {
 
     @Override
     public void startWebDriver() {
-        webDriver = WebDriverFactory.createDriver();
+        webDriver = createDriver();
     }
 
     @Override

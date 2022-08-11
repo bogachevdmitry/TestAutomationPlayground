@@ -10,11 +10,21 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>web-client</module>
+        <module>web-tests</module>
     </modules>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.dmitriibogachev.web</groupId>
+                <artifactId>web_client</artifactId>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>
