@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>web-client</module>
-        <module>web-tests</module>
+        <module>ui-test-automation-playground-tests</module>
     </modules>
 
     <properties>
@@ -21,7 +21,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>io.dmitriibogachev.web</groupId>
+                <groupId>org.example</groupId>
                 <artifactId>web_client</artifactId>
             </dependency>
         </dependencies>

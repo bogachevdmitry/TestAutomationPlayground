@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>web-tests</artifactId>
+    <artifactId>ui-test-automation-playground-tests</artifactId>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
@@ -19,7 +19,7 @@
     <dependencies>
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>WebClient</artifactId>
+            <artifactId>web-client</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
